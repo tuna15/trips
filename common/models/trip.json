@@ -1,0 +1,33 @@
+{
+  "name": "trip",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "destination": {
+      "type": "geopoint"
+    },
+    "buddies": {
+      "type": [
+        "string"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Fishing trip"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

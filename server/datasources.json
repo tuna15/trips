@@ -1,0 +1,12 @@
+{
+  "trips": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "trips",
+    "password": "",
+    "name": "trips",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
